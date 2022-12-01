@@ -1,0 +1,25 @@
+body, html {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  overflow: hidden;
+}
+
+#container {
+  padding: 0;
+  width: calc(100vw - 2rem);
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#input, #output {
+  resize: none;
+  width: 40%;
+  height: calc(100vh - 4rem);
+  padding: 1rem;
+  border: 2px solid black;
+  margin: 0;
+}
